@@ -1,0 +1,21 @@
+<script>
+var wysokosc = prompt("Podaj swoja wysokosc w cm");
+var waga = prompt("Podaj swoja wage w kg");
+var wysokosc = parseInt(wysokosc)
+var waga = parseInt(waga)
+var bmi = waga /(wysokosc)**2
+print("Twoje bmi wynosai: ",bmi)
+if (bmi < 19){
+console.log("Masz niedowage");
+}else if(bmi < 25){
+console.log("Twoja waga jest idealna");
+}else if(bmi < 30){
+console.log("Masz nadwage");
+}else if(bmi < 35){
+console.log("Masz powazna nadwage");
+}else if(bmi < 40){
+console.log("Masz otylosc");
+}else{
+console.log("Masz ekstremalna otylosc");
+}
+</script>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>sprawdzanie
+        
+    </title>
+    <script>
+        // function pocztowy(){
+        
+        //     var kodp=document.getElementById("kod").value;
+        //     if(/^[0-9]{2}-[0-9]{3}$/.test(kodp)){
+        //         document.getElementById("war1").innerHTML="Dobrze wpisane";
+        //     }else{
+        //         document.getElementById("war1").innerHTML="Żle wpisane";
+        //     }
+        // TELEFONY
+        // }
+    //     function telefon(){
+        
+    //     var telk=document.getElementById("tel").value;
+    //     if(/^\+\[48][0-9]{9}$/.test(telk)){
+    //         document.getElementById("war1").innerHTML="Dobry numer telefonu";
+    //     }else{
+    //         document.getElementById("war1").innerHTML="Zły numer telefonu";
+    //     }
+    
+    // }
+    // E-MAIL
+    function mail(){
+        
+        var email=document.getElementById("imail").value;
+        if(/.+[@].+\.[a-z]{2,3}/.test(email)){
+            document.getElementById("war1").innerHTML="Dobry mail";
+        }else{
+            document.getElementById("war1").innerHTML="Zły mail";
+        }
+    
+    }
+    </script>
+</head>
+<body>
+    <!-- <input type="text" id="kod">
+    <button onclick="pocztowy()">
+    <p id="war1"></p> -->
+    <!-- TELEFONY -->
+    <!-- 
+
+    <input type="text" id="tel">
+    <button onclick="telefon()">
+    <p id="war1"></p> -->
+    <!-- E-MAIL -->
+    <input type="text" id="imail">
+    <button onclick="mail()">
+    <p id="war1"></p>
+    
+</body>
+</html>

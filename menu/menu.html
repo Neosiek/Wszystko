@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .menu-glowne a {
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color:pink
+        }
+        a:active {
+            color:black;
+        }
+    
+    </style>
+</head>
+<body>
+    <ul class="menu-glowne">
+<li><a id="onet" href="#">Onet</a></li>
+<li><a id="WP" href="#">WP</a></li>
+<li><a id="librus" href="#">Librus</a></li>
+<li><a id="ZS4" href="#">ZS4</a></li>
+<li><a id="FB" href="#">Facebook</a></li>
+    </ul>
+    <div id="tresc">Strona glowna - wybierz cos z menu.</div>
+    <script>
+        var trescistron = {
+            onet: "Witamy na onecie",
+            WP: "Witamy na WP",
+            librus: "Oto librus, zaloguj sie",
+            ZS4: "Witamy na ZS4",
+            FB: "Zaloguj sie do Facebooka"
+        };
+
+        function klik(event) {
+            console.log(event.target.id)
+            var trescDiv = document.getElementById("tresc")
+            trescDiv.innerHTML = trescistron[event.target.id];
+        }
+
+        var elementyMenu=document.querySelectorAll(".menu-glowne a")
+        for (var i=0;i <elementyMenu.length;i++){
+            elementyMenu[i].onclick = klik;
+        }
+
+        
+
+    </script>
+</body>
+</html>

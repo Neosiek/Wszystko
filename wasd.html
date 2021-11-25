@@ -1,0 +1,68 @@
+<script>
+    //  var w = prompt("Podaj wysokosc")
+    //  var s = prompt("Podaj szerokosc")
+    //  var s2 = ""
+    //  var w2 = ""
+    //  var l = w2 + ""
+    //  for(i = 0;i <= w - 2;i++){
+    //      l += " \n"
+    //  }
+    //  console.log(l)
+
+
+
+
+    //  for(i = 0;i <= s;i++){
+    //      s2 += "X"
+    //  }
+    //  console.log(s2)
+
+    //  for(i = 0;i <= w;i++){
+    //      w2 += "XX \n"
+    //  }
+    //  console.log(w2)
+
+    //  console.log(s2)
+
+
+
+
+
+
+
+
+
+
+
+     
+    
+function cenzura(text){
+    var wynik = " ";
+    for(var i = 0;i < text.length;i++){
+        if (text[i] == "a"){
+            wynik += "*";
+        }else if(text[i] == "ą"){
+            wynik += "*";
+        }else if(text[i] == "e"){
+            wynik += "*";
+        }else if(text[i] == "ę"){
+            wynik += "*";
+        }else if(text[i] == "u"){
+            wynik += "*";
+        }else if(text[i] == "o"){
+            wynik += "*";
+        }else if(text[i] == "ó"){
+            wynik += "*";
+        }else if(text[i] == "y"){
+            wynik += "*";
+        }else{wynik += text[i];
+        }
+    }
+    return wynik;
+ }
+
+
+ 
+
+
+</script>

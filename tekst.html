@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        #pasek{
+            display: block;
+            position: absolute;
+            height: 40px;
+            width: inherit;
+            background-color: yellow;
+            overflow: hidden;
+        }
+
+        input{
+            width:100px;
+            height:inherit;
+            border:none;
+            text-align:center;
+            background-color: transparent;
+            line-height:40px;
+            font-family: Arial;
+            font-size:16px;
+        }
+        /* #napis
+        {
+            display:block;
+            position:absolute;
+            width:300px;
+            height:inherit;
+            background-color:transparent;
+            font-family: Arial;
+            font-size:15px;
+            line-height: 40px;
+        } */
+    </style>
+    <script>
+        // function animacja(){
+        //     var napis_ob = document.getElementById("napis")
+        //     if(parseInt(napis_ob.style.left)<=300){
+        //         napis_ob.style.left='900px';
+        //     }else napis_ob.style.left=parseInt(napis_ob.style.left)-1 + 'px';
+        // }
+        // window.setInterval('animacja()',1200);   
+    </script>
+</head>
+<body>
+    <div id="pasek">
+        <form name="formularz">
+            <input type="text" name="tekst" value="Tekst"/>
+        </form>
+    </div>
+    <!-- <div id="napis" style="left:0px">Tekst</div> -->
+</body>
+</html>

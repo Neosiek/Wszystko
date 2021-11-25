@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title></title>
+    <script>
+        var obrazek1 =new Image();
+        obrazek1.src="obrazek.jpg"
+        var obrazek2 =new Image();
+        obrazek2.src="obrazek2.jpg"
+        var obrazek_id= 1
+        function zmienobrazek(){
+            var obraz = document.getElementById("obrazek");
+            if(obrazek_id==1){
+                obraz.src=obrazek2.src
+                obrazek_id = 2;
+            }else { 
+                obraz.src=obrazek1.src
+                obrazek_id = 1
+            }
+        }
+    </script>
+</head>
+<body>
+    <img src="obrazek.jpg" id="obrazek" onclick="zmienobrazek();"/>
+</body>
+
+</html>

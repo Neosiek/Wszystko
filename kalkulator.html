@@ -1,0 +1,30 @@
+<script>
+var liczbadodawana = prompt("Podaj 1 liczbe?")
+var operatormatematyczny = prompt("Co chcesz zrobic z liczbami?")
+var liczbadodawana2 = prompt("Podaj 2 liczbe")
+liczbadodawana = parseInt(liczbadodawana);
+liczbadodawana2 = parseInt(liczbadodawana2);
+
+
+if (operatormatematyczny == '+') {
+    console.log(liczbadodawana + liczbadodawana2);
+}
+else if (operatormatematyczny == '-') {
+    console.log(liczbadodawana - liczbadodawana2);
+}
+else if (operatormatematyczny == '*') {
+    console.log(liczbadodawana * liczbadodawana2);
+}
+else if (operatormatematyczny == '/') {
+    console.log(liczbadodawana / liczbadodawana2);
+}
+else if (operatormatematyczny == '%') {
+    console.log(liczbadodawana % liczbadodawana2);
+} 
+else {
+    console.log("Niewlasciwy znak");
+}
+
+
+
+</script>

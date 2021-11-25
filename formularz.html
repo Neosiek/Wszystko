@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Pole kwadratu</title>
+    <script>
+        // function obliczanie(){
+        //     var a = document.getElementById("a").value;
+        //     var b = document.getElementById("b").value;
+        //     var iloczyn = a * b;
+        //     document.getElementById("wynik").innerHTML="Pole kwadratu wynosi " + iloczyn + "cm<sup>2</sup>";
+        // }
+
+        // function obliczanie(){
+        //     var dlugosc = document.getElementById("dlugosc").value;
+        //      var szerokosc = document.getElementById("szerokosc").value;
+        //      var wysokosc = document.getElementById("wysokosc").value;
+        //      var iloczyn = dlugosc * szerokosc * wysokosc;
+        //      document.getElementById("wynik").innerHTML="Pole prostopadloscianu wynosi " + iloczyn + "cm<sup>2</sup>";
+        //  }
+
+
+        function obliczanie(){
+             var a = document.getElementById("a").value;
+             var b = document.getElementById("b").value;
+             var iloczyn = a * a * b ;
+             document.getElementById("wynik").innerHTML="Pole kwadratu wynosi " + iloczyn + "cm<sup>2</sup>";
+         }
+    </script>
+</head>
+<body>
+    <!-- <p>obliczanie pola kwadratu </p>
+
+        Podaj bok a <input type="number" id="a"/><br/>
+        Podaj bok b <input type="number" id="b"/><br/>
+        </form>
+        <input type="submit" value="oblicz" onclick="obliczanie();">
+        <p id="wynik"></p> -->
+
+
+        <!-- <p>obliczanie pola prostopadloscianu </p>
+
+        Podaj dlugosc  <input type="number" id="dlugosc"/><br/>
+        Podaj szerokosc  <input type="number" id="szerokosc"/><br/>
+        Podaj wysokosc  <input type="number" id="wysokosc"/><br/>
+        </form>
+        <input type="submit" value="oblicz" onclick="obliczanie();">
+        <p id="wynik"></p> -->
+
+        <p> Pole prostopadloscianu</p>
+        Podaj bok a <input type="number" id="a"/><br/>
+        Podaj bok b <input type="number" id="b"/><br/>
+        </form>
+        <input type="submit" value="oblicz" onclick="obliczanie();">
+        <p id="wynik"></p> 
+
+</body>
+</html>

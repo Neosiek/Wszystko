@@ -1,0 +1,60 @@
+html{
+    font-family: georgia;
+}
+
+.baner{
+    background-color: #824555;
+    color:white;
+    text-align: center;
+    margin:20px;
+}
+
+.pierwszagora{
+    background-color: #A26475;
+    color:white;
+    width: 30%;
+    height: 300px;
+    float:left;
+}
+.drugagora{
+    background-color: #A26475;
+    color:white;
+    width: 30%;
+    height: 300px;
+    float:left;
+}
+.trzeciagora{
+    background-color: #A26475;
+    color:white;
+    width: 40%;
+    height: 300px;
+    text-align: right;
+    float:left;
+}
+.glowny{
+    background-color: #F0EAE2;
+    margin: 50px;
+}
+.footer{
+    background-color: #824555;
+    color:white;
+    text-align: center;
+    margin:20px;
+}
+.table{
+    border: 10px;
+    border-color: #69293A;
+    margin: 7px;
+}
+.lista{
+    list-style-type: square;
+}
+.pierwszyprzycisk{
+    background-color: red;
+}
+.drugiprzycisk{
+    background-color: green;
+}
+.trzeciprzycisk{
+    background-color: blue;
+}

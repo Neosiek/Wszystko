@@ -1,0 +1,46 @@
+<script>
+var tablica=new Array(107,17,3,389,3007);
+var tablica2=["Zuzia","Andrzej","Anna","Alina","Aldona"];
+
+tablica[10]=26
+tablica[13]=25
+
+tablica2[7]="Daria"
+tablica2[10]="Jan"
+document.write(tablica.join()+"<br>");
+document.write(tablica2.join()+"<br>")
+tablica.reverse();
+tablica2.reverse();
+tablica.sort();
+tablica2.sort();
+
+console.log(tablica)
+console.log(tablica2)
+function segregacja(a,b){
+    return a - b
+}
+tablica.sort(segregacja);
+console.log(tablica)
+
+var nowatablica = tablica.concat(tablica2)
+document.write(nowatablica)
+
+
+console.log(tablica.slice(0,1))
+
+tablica.push(12,100,4)
+
+
+
+for(var i = 0;i < tablica.length;i++){
+    document.write(tablica[i])
+}
+
+for(var i = 0;i < tablica.length;i++){
+    if(tablica[i] % 2 == 0){
+        console.log(tablica[i])
+    }
+}
+var data =[new Date]
+console.log(data)
+</script>

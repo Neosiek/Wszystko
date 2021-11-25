@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="styl2.css">
+    <meta charset="UTF-8">
+    <title>Formatowanie</title>
+    <script>
+        let tekst = document.getElementById(tekst)
+        let zielony = document.getElementById(zielony)
+        let czerwony = document.getElementById(czerwony)
+        let niebieski = document.getElementById(niebieski)
+        function skrypt(){
+            
+        }
+    </script>
+</head>
+<body>
+    <div class="baner">
+        <h1>Formatowanie dokumentów html</h1>
+    </div>
+    <div class="pierwszagora">
+    <h2>Przykład listy-hobby</h2>
+    <ul>
+        <li>muzyka</li>
+        <li>turystyka</li>
+        <ol>1.góry</ol>
+        <ol>2.jeziora</ol>
+        <ol>3.na rowerze</ol>
+        <li>książki</li>
+    </ul>
+    </div>
+    <div class="drugagora">
+        <h2>Przykład tabeli-rozkład dnia</h2>
+        <table class="table">
+            <tr>
+               <th>Pora dnia</th> <th>obowiązki</th>
+            </tr>
+            <tr>
+               <td>rano</td> <td>nauka</td> 
+            </tr>
+            <tr>
+               <td>południe</td> <td>zajęcia dodatkowe</td> 
+            </tr>
+            <tr>
+                <td>popołudnie</td> <td>moje hobby</td>
+             </tr>
+             <tr>
+                <td>wieczór</td>
+             </tr>
+         </table>
+    </div>
+    <div class="trzeciagora">
+        <image src="tekst.jpg" text="technologia web"></image>
+    </div>
+    <div class="glowny">
+        <p>Podaj rozmiar tekstu w procentach</p>
+        <input type="number">%
+        <p><select>
+     <option>kursywa</option>
+     <option>prosty</option>
+        </select></p>
+        <p>Jakim kolorem sformatować tekst?</p>
+        <input type="button"  onclick="skrypt();" id="zielony" class="pierwszyprzycisk">
+        <input type="button"  onclick="skrypt();" id="czerwony" class="drugiprzycisk">
+        <input type="button"  onclick="skrypt();" id="niebieski" class="trzeciprzycisk">
+        <p id="tekst">To jest przykład paragrafu, który może być dowolnie formatowany przez JavaScript</p>
+    </div>
+    <div class="footer">
+        <p>Formatowaniem tekstu zajmował się Dawid Sieka</p>
+        <p>odwiedz także</p><a href>formatowanie,pl</a>
+    </div>
+</body>
+</html>

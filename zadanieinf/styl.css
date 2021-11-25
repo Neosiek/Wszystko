@@ -1,0 +1,38 @@
+.banner{
+    background-color: #829EB9;
+    height: 50px;
+    font-family: arial;
+    text-align:center;
+}
+
+.left{
+    background-color: #B3C6D9;
+    height: 600px;
+    width:25%;
+}
+
+.right{
+    background-color: #E0E9F1;
+    height: 600px;
+    width:75%;
+    text-align: center;
+}
+
+.footer{
+    background-color: #829EB9;
+    font-family: arial;
+    text-align: center;
+}
+image{
+    margin: 30px;
+    margin-inline: 10px;
+    border: 2px;
+}
+
+table{
+margin:30px;
+border:2px;
+width: 70%;
+}
+
+

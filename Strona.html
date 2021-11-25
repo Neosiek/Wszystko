@@ -1,0 +1,79 @@
+<html>
+
+<head>
+
+<title>Dokument</title>
+<meta charset="utf-8">
+<meta name = "author" content "Wojtala Michal">
+<meta name = "creation-date" content="05.10.2021"
+
+</head>
+
+<body>
+
+<script language = "JavaScript">
+    //KOMENDA Z LICZBAMI
+    var zm1 = 12;
+    var zm2 = 7;
+    var zm3 = parseInt(zm1);
+    var zm4 = parseInt(zm2);
+    document.writeln(zm1 + zm2);
+    document.writeln(zm1 - zm2);
+    document.writeln(zm1 * zm2);
+    document.writeln(zm1 / zm2);
+    document.writeln(zm1 % zm2);
+
+    var liczba = prompt ("Podaj Liczbe");
+    if (liczba > 0)
+    document.write("<PRE>Liczba " + liczba + " jest dodatnia</PRE>");
+    else if(liczba == 0)
+    {
+        document.write("<PRE>Liczba " + liczba + " nie jest dodatnia ani ujemna</PRE>");
+    }
+    else if(liczba < 0)
+    {
+        document.write("<PRE>Liczba " + liczba + " jest ujemna</PRE>");
+    }
+
+    //KOMENA Z IMIENIEM
+    var imie = prompt ("Podaj swoje imie:");
+    document.write ("<PRE>Nie kojarze cię " + imie);
+
+    // KOMENDA Z KOLORAMI
+    var kolor = prompt ("Wybierz kolor 1) Zielony 2) Czerwony");
+    if (kolor == 1){
+    document.fgColor = "Green";
+    document.write ("<PRE>Oto twój kolor: Zielony");
+    }
+    if (kolor == 2){
+    document.fgColor = "Red";
+    document.write ("<PRE>Oto twój kolor: Czerwony");
+    }
+
+    //KOMENDA Z KOLORAMI + NAPISY
+    if (kolor == "Zielony"){
+    document.fgColor = "Green";
+    document.write ("<PRE>Oto twój kolor: Zielony");
+    }
+    if (kolor == "Czerwony"){
+    document.fgColor = "Red";
+    document.write ("<PRE>Oto twój kolor: Czerwony");
+    }
+
+    //KOMENDA POKAZUJE KTORA LICZBA JEST MNIEJSZA
+    var liczba1 = prompt ("Podaj Pierwszą Liczbę:");
+    var liczba2 = prompt ("Podaj Drugą Liczbę:");
+    var liczba1 = parseInt(liczba1)
+    var liczba2 = parseInt(liczba2)
+    if (liczba1 > liczba2)
+        document.write("<PRE>"  + liczba1 + " Jest Większa Od " + liczba2);
+        else{
+            document.write("<PRE>" + liczba1 + " Jest Mniejsza Od " + liczba2);
+        }
+
+    
+</script>
+
+</body>
+
+</html>
